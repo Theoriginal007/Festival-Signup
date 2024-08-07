@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Music Festival 2024</h1>
+    </header>
+
+    <nav>
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="lineup.html">Lineup</a></li>
+                <li><a href="tickets.html">Tickets</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="content-container">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Reach out to us using the contact form below or use the provided contact details.</p>
+
+        <section class="contact-form">
+            <h3>Contact Form</h3>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <section class="contact-details">
+            <h3>Contact Details</h3>
+            <p><strong>Email:</strong> <a href="mailto:info@musicfestival2024.com">info@musicfestival2024.com</a></p>
+            <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+            <p><strong>Address:</strong> 123 Festival Road, Music City, USA</p>
+        </section>
+
+      
+        <section class="map">
+            <h3>Find Us</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.065121889391!2d-122.41941848468147!3d37.77492927975916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808a40f21d7b%3A0x8d82dbe1d4c4f896!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1632737550557!5m2!1sen!2s" 
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Music Festival. All Rights Reserved.</p>
+        <ul class="footer-links">
+ 
+        </ul>
+    </footer>
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
