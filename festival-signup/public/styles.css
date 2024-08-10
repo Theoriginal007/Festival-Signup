@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -47,6 +48,7 @@ nav {
     color: #ffcc00;
 }
 
+/* Form Container */
 .form-container {
     flex: 1;
     display: flex;
@@ -111,6 +113,7 @@ input[type="checkbox"] {
     margin-top: 10px;
 }
 
+/* Footer */
 footer {
     background-color: #343a40;
     color: white;
@@ -142,8 +145,7 @@ footer p {
     color: #ffcc00;
 }
 
-
-
+/* Featured Artist */
 .featured-artist {
     margin: 20px 0;
     padding: 20px;
@@ -176,6 +178,7 @@ footer p {
     margin-bottom: 10px;
 }
 
+/* Schedule */
 .schedule {
     margin: 20px 0;
     padding: 20px;
@@ -202,7 +205,7 @@ th {
     color: white;
 }
 
-
+/* Ticket Info */
 .ticket-info {
     margin: 20px 0;
     padding: 20px;
@@ -222,6 +225,7 @@ th {
     font-size: 1.2em;
 }
 
+/* Purchase Info */
 .purchase-info {
     margin: 20px 0;
     padding: 20px;
@@ -248,6 +252,7 @@ th {
     background-color: #495057;
 }
 
+/* Contact Form */
 .contact-form {
     margin: 20px 0;
     padding: 20px;
@@ -286,6 +291,7 @@ th {
     background-color: #495057;
 }
 
+/* Contact Details */
 .contact-details {
     margin: 20px 0;
     padding: 20px;
@@ -293,6 +299,7 @@ th {
     border-radius: 8px;
 }
 
+/* Map */
 .map {
     margin: 20px 0;
     padding: 20px;
@@ -306,8 +313,7 @@ th {
     border-radius: 8px;
 }
 
-
-
+/* Checkout Summary */
 .checkout-summary {
     margin: 20px 0;
     padding: 20px;
@@ -320,6 +326,7 @@ th {
     margin-bottom: 10px;
 }
 
+/* Checkout Form */
 .checkout-form {
     margin: 20px 0;
     padding: 20px;

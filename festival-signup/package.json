@@ -1,28 +1,17 @@
 {
-  "name": "music-festival-2024",
+  "name": "festival-signup",
   "version": "1.0.0",
-  "description": "A website for Music Festival 2024",
-  "main": "index.js",
+  "description": "Music Festival Sign-Up App",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo \"Build script not defined\""
+    "start": "node server.js"
   },
-  "keywords": [
-    "festival",
-    "music",
-    "website"
-  ],
-  "author": "Your Name",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.3",
-    "dotenv": "^16.0.3",
-    "cors": "^2.8.5"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.22",
-    "eslint": "^8.31.0",
-    "prettier": "^2.8.8"
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "festival-signup": "file:",
+    "mongoose": "^6.0.12",
+    "mysql": "^2.18.1"
   }
 }
